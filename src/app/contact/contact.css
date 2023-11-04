@@ -9,11 +9,11 @@ body{
 nav{
     display: flex;
 }
-#logoImg{
+.logoImg{
     width: 60px;
     height: 54px;
 }
-#home{
+.home{
     width: 60px;
     height: 54px;
     position: absolute;
@@ -45,19 +45,19 @@ select{
 option{
     font-size: 15px;
 }
-#mail{
+.mail{
     display: flex;
     justify-content: right;
     align-items: center;
 }
-#mail > img{
+.mail > img{
     background-color: black;
     padding: 15px;
     margin-right: 10%;
     margin-top: 2%;
     border-radius: 50%;
 }
-#content{
+.content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +69,7 @@ option{
     color: white;
     font-size: 20px;
 }
-#content > p{
+.content > p{
     text-align: center;
     justify-content: center;
 }
@@ -90,13 +90,13 @@ input{
     border: none;
     border-bottom:1px solid black;
 }
-#send{
+.send{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
-#Btnsend{
+.Btnsend{
     border-radius: 15px;
     background: rgba(236, 6, 11, 0.75);
 
